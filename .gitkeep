@@ -1,0 +1,11 @@
+data/raw/.gitkeep
+
+data/processed/.gitkeep
+
+logs/.gitkeep
+
+artifacts/.gitkeep
+
+models/.gitkeep
+
+mlruns/.gitkeep

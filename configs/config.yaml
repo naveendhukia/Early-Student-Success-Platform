@@ -1,0 +1,15 @@
+project:
+  name: Early Student Success Platform
+  version: 1.0.0
+
+data:
+  raw_data: data/raw/student_dropout.csv
+  processed_data: data/processed/student_dropout_clean.csv
+
+training:
+  test_size: 0.20
+  validation_size: 0.20
+  random_state: 42
+
+logging:
+  level: INFO

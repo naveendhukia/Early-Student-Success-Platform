@@ -1,0 +1,75 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Bytecode
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# MLflow
+mlruns/
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.onnx
+
+# Artifacts
+artifacts/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Docker
+*.tar
+
+# IDE
+.idea/
+
+# Temporary Files
+*.tmp
+*.bak
+
+# Dataset
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore Python cache
+**/__pycache__/
